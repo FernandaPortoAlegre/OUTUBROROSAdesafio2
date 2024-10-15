@@ -1,0 +1,123 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2vh;
+  font-weight: normal;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10vw;
+}
+
+.Título {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav {
+  width: 40%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav li {
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFD9EC;
+}
+
+.Sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50vh;
+}
+.Sobre .FirstBox {
+  font-size: 3vh;
+  width: 35vw;
+}
+.Sobre .Primeiraimagem {
+  height: 45vh;
+}
+
+.Conscientização {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 35vh;
+}
+.Conscientização .Segundaimagem {
+  height: 30vh;
+}
+.Conscientização .SecondBox {
+  color: #E4EEF1;
+  font-size: 3vh;
+  width: 38.9vw;
+}
+
+.Dicas {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60vh;
+}
+.Dicas .Informações {
+  height: 35vh;
+}
+
+footer {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25vh;
+}
+footer .RedesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12vw;
+  cursor: pointer;
+}
+footer .botão {
+  height: 7vh;
+}
+footer .Dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .Dados p {
+  font-size: 3vh;
+  color: #E4EEF1;
+}
+footer .Laço {
+  height: 18vh;
+}/*# sourceMappingURL=style.css.map */
