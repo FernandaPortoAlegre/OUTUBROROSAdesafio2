@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,16 +17,18 @@ header {
     font-size: 2vh;
     font-weight: normal;
     align-items: center; 
-
-
+   
 }
 
 .Logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 10vw;   
+    width: 10vw;  
+    
+      
 }
+
 
 .Título {
     display: flex;
